@@ -1,9 +1,10 @@
 "use strict";
-const yearInput = prompt("Indtast dit fødselsår");
 
-const year = parseInt(yearInput, 10);
+let yearInput = prompt("Indtast dit fødselsår");
 
-const currentYear = new Date('2025').getFullYear();
+let year = parseInt(yearInput, 10);
+
+let currentYear = new Date('2025').getFullYear();
 
 const age = currentYear - year;
 
